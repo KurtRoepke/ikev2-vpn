@@ -11,7 +11,9 @@
 
 <h2>Environments and programs used </h2>
 - <b>Cisco CML 2.8</b> 
+
 - <b>Cisco terminal</b>
+
 - <b>Ubuntu terminal</b>
 
 <h2>Program walk-through:</h2>
