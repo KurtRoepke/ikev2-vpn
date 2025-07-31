@@ -3,20 +3,16 @@
  
 
 <h2>Description</h2>
- 
+ In this project i created two autonomous networks symulating a wan then i connected those autonomous networks using an ikev2 vpn. Next i created a transform set to map the configuration to a GRE tunnel.
 <br />
 
 
 <h2></h2>
 
+<h2>Environments and programs used </h2>
 - <b>Cisco CML 2.8</b> 
-- <b>Bind9</b>
+- <b>Cisco terminal</b>
 - <b>Ubuntu terminal</b>
-
-
-<h2>Environments Used </h2>
-
-- <b>Windows 10</b> (21H2)
 
 <h2>Program walk-through:</h2>
 
