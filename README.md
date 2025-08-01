@@ -33,7 +33,7 @@ Enter the number of passes: <br/>
 <br />
 <br />
 Confirm your selection:  <br/>
-<img src=/>
+<img src="images/created ikev2 profile.PNG" height="80%" width="80%" />
 <br />
 <br />
 Wait for process to complete (may take some time):  <br/>
