@@ -52,14 +52,15 @@ Create transform set<br/>
  <img src="images/liked ipsec profile to tunnel1.PNG" height="80%" width="80%" />
 <br />
 <br />
-     <br/>
+  Ping pc on other network <br/>
  <img src="images/packets being sent through vpn.PNG" height="80%" width="80%" />
 <br />
 <br />
-     <br/>
+    use command () to check if packets are being encrypted <br/>
   <img src="images/packets being sent through vpn.PNG" height="80%" width="80%" />
 <br />
 <br />
+  packet capture <br/>
   <img src="images/pings are encasulated in gre tunnel.PNG" height="80%" width="80%" />
 <br />
 <br />
