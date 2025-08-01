@@ -21,11 +21,11 @@
 
 <p align="center">
 Launch the utility: <br/>
-<img src= "images/created ger tunnel 1.PNG" height="80%" width="80%""/>
+<img src= "images/created ger tunnel 1.PNG" height="80%" width="80%"/>
 <br />
 <br />
 Select the disk:  <br/>
-<img src=/>
+<img src="images/created ikev2 keyring.PNG" height="80%" width="80%"/>
 <br />
 <br />
 Enter the number of passes: <br/>
