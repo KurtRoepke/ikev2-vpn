@@ -37,11 +37,11 @@ Confirm your selection:  <br/>
 <br />
 <br />
 Wait for process to complete (may take some time):  <br/>
-<img src= height="80%" width="80%" />
+<img src="images/created ikev2 profile.PNG" height="80%" width="80%" />
 <br />
 <br />
 Sanitization complete:  <br/>
-<img src=/>
+<img src=" " height="80%" width="80%" />
 <br />
 <br />
 Observe the wiped disk:  <br/>
