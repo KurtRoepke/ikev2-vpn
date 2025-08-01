@@ -41,7 +41,13 @@ Wait for process to complete (may take some time):  <br/>
 <br />
 <br />
 Sanitization complete:  <br/>
-<img src=" " height="80%" width="80%" />
+<img src="images/created transform set.PNG" height="80%" width="80%" />
+<br />
+<br />
+ <img src="" height="80%" width="80%" />
+<br />
+<br />
+ <img src="" height="80%" width="80%" />
 <br />
 <br />
 Observe the wiped disk:  <br/>
