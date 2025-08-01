@@ -64,9 +64,6 @@ Create transform set<br/>
   <img src="images/pings are encasulated in gre tunnel.PNG" height="80%" width="80%" />
 <br />
 <br />
-Observe the wiped disk:  <br/>
-<img src=/>
-</p>
 
 <!--
  ```diff
