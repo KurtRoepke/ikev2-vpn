@@ -56,7 +56,7 @@ Sanitization complete:  <br/>
   <img src="images/packets being sent through vpn.PNG" height="80%" width="80%" />
 <br />
 <br />
-  <img src="" height="80%" width="80%" />
+  <img src="images/pings are encasulated in gre tunnel.PNG" height="80%" width="80%" />
 <br />
 <br />
 Observe the wiped disk:  <br/>
