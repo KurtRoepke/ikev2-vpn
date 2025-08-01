@@ -29,7 +29,7 @@ Select the disk:  <br/>
 <br />
 <br />
 Enter the number of passes: <br/>
-<img src="images/created ikev2 policy.PNG"  height="80%" width="80%"/>
+<img src="images/created ikev2 keyring.PNG"  height="80%" width="80%"/>
 <br />
 <br />
 Confirm your selection:  <br/>
