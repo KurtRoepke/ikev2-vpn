@@ -20,39 +20,43 @@
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Launch the utility: <br/>
+Create Gre tunnel <br/>
 <img src= "images/created ger tunnel 1.PNG" height="80%" width="80%"/>
 <br />
 <br />
-Select the disk:  <br/>
+Create ikev2 proposal<br/>
 <img src="images/created ikev2 proposal.PNG" height="80%" width="80%"/>
 <br />
 <br />
-Enter the number of passes: <br/>
+Create keyring<br/>
 <img src="images/created ikev2 keyring.PNG"  height="80%" width="80%"/>
 <br />
 <br />
-Confirm your selection:  <br/>
+Create ikev2 policy<br/>
 <img src="images/created ikev2 policy.PNG" height="80%" width="80%" />
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
+Create ikev2 profile <br/>
 <img src="images/created ikev2 profile.PNG" height="80%" width="80%" />
 <br />
 <br />
-Sanitization complete:  <br/>
+Create transform set<br/>
 <img src="images/created transform set.PNG" height="80%" width="80%" />
 <br />
 <br />
+ Create ipsec profile<br/>
  <img src="images/created ipsec profile.PNG" height="80%" width="80%" />
 <br />
 <br />
+ Map ipsec profile to gre tunnel<br/>
  <img src="images/liked ipsec profile to tunnel1.PNG" height="80%" width="80%" />
 <br />
 <br />
+     <br/>
  <img src="images/packets being sent through vpn.PNG" height="80%" width="80%" />
 <br />
 <br />
+     <br/>
   <img src="images/packets being sent through vpn.PNG" height="80%" width="80%" />
 <br />
 <br />
