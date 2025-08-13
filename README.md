@@ -48,6 +48,8 @@ Create ikev2 policy<br/>
 <br />
 Create ikev2 profile <br/>
 <img src="images/created ikev2 profile.PNG" height="80%" width="80%" />
+<P>The ikev2 profile is a list that the tunnel can use for configurations
+such as matching addresses for the endpoints authentications methods</P>
 <br />
 <br />
 Create transform set<br/>
