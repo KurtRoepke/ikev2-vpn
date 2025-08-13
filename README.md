@@ -77,10 +77,13 @@ algarithms that will be used to form the ipsec tunnel.</p>
 <br />
     use command () to check if packets are being encrypted <br/>
   <img src="images/packets being sent through vpn.PNG" height="80%" width="80%" />
+  <p>To ensure the vpn is being used use the command "show crypto ipsec sa | in peer|pkts|ident"
+  to ensure the packet count is increasing.</p>
 <br />
 <br />
   packet capture <br/>
   <img src="images/pings are encasulated in gre tunnel.PNG" height="80%" width="80%" />
+  <p>Here we can see from a packet capture the gre tunnel is being used.</p>
 <br />
 <br />
 
