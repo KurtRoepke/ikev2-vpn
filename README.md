@@ -55,6 +55,8 @@ and this is where you add the keyring to the configuration.</P>
 <br />
 Create transform set<br/>
 <img src="images/created transform set.PNG" height="80%" width="80%" />
+<p>Next we will create an ip sec transform set. This contains the security
+algarithms that will be used to form the ipsec tunnel.</p>
 <br />
 <br />
  Create ipsec profile<br/>
