@@ -22,14 +22,23 @@
 <p align="center">
 Create Gre tunnel <br/>
 <img src= "images/created ger tunnel 1.PNG" height="80%" width="80%"/>
+ <p>first we will create a gre tunnel. This tunneling protocol doesnt 
+ encrypt the trafic but does allow for multicast. The source is the 
+ outside interface on R1 and the destination is the outside ip of
+ router R3.</p>
 <br />
 <br />
 Create ikev2 proposal<br/>
 <img src="images/created ikev2 proposal.PNG" height="80%" width="80%"/>
+<p>The proposal sets the perameters for the isakemp tunnel. This tunnel 
+ uses asyncronus encryption for a strong connection so we can transport
+ the syncronus keys safely.</p>
 <br />
 <br />
 Create keyring<br/>
 <img src="images/created ikev2 keyring.PNG"  height="80%" width="80%"/>
+<p>the keyring acts like a repository for our authentication methods here we
+are using preshared keys.</p>
 <br />
 <br />
 Create ikev2 policy<br/>
