@@ -17,7 +17,7 @@
 - <b>Ubuntu terminal</b>
 
 <h2>Program walk-through:</h2>
-<div class = "center-text">
+<div align="center">
 <p align="center">
 Create Gre tunnel <br/>
 <img src= "images/created ger tunnel 1.PNG" height="80%" width="80%"/>
