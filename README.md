@@ -1,6 +1,7 @@
+
 <h1> Ikev2 site to site vpn configuration</h1>
 
- 
+    <link rel="stylesheet" href="styles.css">
 
 <h2>Description</h2>
  In this project i created two autonomous networks symulating a wan then i connected those autonomous networks using an ikev2 vpn. Next i created a transform set to map the configuration to a GRE tunnel.
@@ -18,7 +19,7 @@
 - <b>Ubuntu terminal</b>
 
 <h2>Program walk-through:</h2>
-
+<div class = "">
 <p align="center">
 Create Gre tunnel <br/>
 <img src= "images/created ger tunnel 1.PNG" height="80%" width="80%"/>
@@ -86,7 +87,7 @@ algarithms that will be used to form the ipsec tunnel.</p>
   <p>Here we can see from a packet capture the gre tunnel is being used.</p>
 <br />
 <br />
-
+</div>
 <!--
  ```diff
 - text in red
