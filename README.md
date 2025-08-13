@@ -43,6 +43,7 @@ are using preshared keys.</p>
 <br />
 Create ikev2 policy<br/>
 <img src="images/created ikev2 policy.PNG" height="80%" width="80%" />
+<p>Next we must match the proposal to an ikev2 policy.</p>
 <br />
 <br />
 Create ikev2 profile <br/>
