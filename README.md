@@ -49,7 +49,8 @@ Create ikev2 policy<br/>
 Create ikev2 profile <br/>
 <img src="images/created ikev2 profile.PNG" height="80%" width="80%" />
 <P>The ikev2 profile is a list that the tunnel can use for configurations
-such as matching addresses for the endpoints authentications methods</P>
+such as matching addresses for the endpoints authentications methods 
+and this is where you add the keyring to the configuration.</P>
 <br />
 <br />
 Create transform set<br/>
@@ -62,6 +63,7 @@ Create transform set<br/>
 <br />
  Map ipsec profile to gre tunnel<br/>
  <img src="images/liked ipsec profile to tunnel1.PNG" height="80%" width="80%" />
+ <p> </p>
 <br />
 <br />
   Ping pc on other network <br/>
