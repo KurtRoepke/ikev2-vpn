@@ -61,6 +61,8 @@ algarithms that will be used to form the ipsec tunnel.</p>
 <br />
  Create ipsec profile<br/>
  <img src="images/created ipsec profile.PNG" height="80%" width="80%" />
+ The creation of an ipsec profile is next. This acts like a repository to store
+ configurations for the ipsec tunnel and allso where we put the transform set.
 <br />
 <br />
  Map ipsec profile to gre tunnel<br/>
