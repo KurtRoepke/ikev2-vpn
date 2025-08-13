@@ -67,7 +67,8 @@ algarithms that will be used to form the ipsec tunnel.</p>
 <br />
  Map ipsec profile to gre tunnel<br/>
  <img src="images/liked ipsec profile to tunnel1.PNG" height="80%" width="80%" />
- <p> </p>
+ <p>Finaly we link the ipsec profile to the gre tunnel so you get the security
+ of ipsec but the multicast from the gre tunnel.</p>
 <br />
 <br />
   Ping pc on other network <br/>
