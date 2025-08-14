@@ -1,4 +1,5 @@
-
+<!DOCTYPE html>
+ <html>
 <h1> Ikev2 site to site vpn configuration</h1>
 
 <h2>Description</h2>
@@ -95,3 +96,4 @@ algarithms that will be used to form the ipsec tunnel.</p>
 @@ text in purple (and bold)@@
 ```
 --!>
+</html>
