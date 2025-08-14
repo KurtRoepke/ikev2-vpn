@@ -34,7 +34,7 @@ Create Gre tunnel <br/>
 <br />
 Create ikev2 proposal<br/>
 <img src="images/created ikev2 proposal.PNG" height="80%" width="80%"/>
-<p>The proposal sets the perameters for the isakemp tunnel. This tunnel 
+<p align="center">The proposal sets the perameters for the isakemp tunnel. This tunnel 
  uses asyncronus encryption for a strong connection so we can transport
  the syncronus keys safely.</p>
 <br />
