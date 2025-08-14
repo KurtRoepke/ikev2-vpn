@@ -1,9 +1,7 @@
 <!DOCTYPE html>
  <html>
    <head>
-     <style>
-      
-     </style>
+  
 <h1> Ikev2 site to site vpn configuration</h1>
    </head>
 <h2>Description</h2>
