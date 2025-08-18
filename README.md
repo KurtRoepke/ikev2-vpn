@@ -17,7 +17,6 @@
 - <b>Ubuntu terminal</b>
 
 <h2>Program walk-through:</h2>
-<div align="center">
 <p align="center">
 Create Gre tunnel <br/>
 <img src= "images/created ger tunnel 1.PNG" height="80%" width="80%"/>
@@ -74,7 +73,7 @@ algarithms that will be used to form the ipsec tunnel.</p>
  <img src="images/packets being sent through vpn.PNG" height="80%" width="80%" />
 <br />
 <br />
-    use command () to check if packets are being encrypted <br/>
+    use command "show crypto ipsec sa | in peer|pkts|ident" to check if packets are being encrypted <br/>
   <img src="images/packets being sent through vpn.PNG" height="80%" width="80%" />
   <p align="center">To ensure the vpn is being used use the command "show crypto ipsec sa | in peer|pkts|ident"
   to ensure the packet count is increasing.</p>
@@ -85,7 +84,6 @@ algarithms that will be used to form the ipsec tunnel.</p>
   <p align="center">Here we can see from a packet capture the gre tunnel is being used.</p>
 <br />
 <br />
-</div>
 <!--
  ```diff
 - text in red
