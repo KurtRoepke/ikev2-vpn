@@ -2,7 +2,7 @@
 <h1> Ikev2 site to site vpn configuration</h1>
    
 <h2>Description</h2>
- In this project i created two autonomous networks symulating a wan then i connected those autonomous networks using an ikev2 vpn. Next i created a transform set to map the configuration to a GRE tunnel.
+  In this project, I created two autonomous networks simulating a WAN, and then I connected those autonomous networks using an IKEv2 VPN. Next, I created a transform set to map the configuration to a GRE tunnel.
 <br />
 
 <h2>Environments and programs used </h2>
@@ -18,60 +18,60 @@
 Create Gre tunnel <br/>
 <img src= "images/created ger tunnel 1.PNG" height="80%" width="80%"/>
   <br />
- first we will create a gre tunnel. This tunneling protocol doesnt 
- encrypt the trafic but does allow for multicast. The source is the 
- outside interface on R1 and the destination is the outside ip of
+ First, we will create a GRE tunnel. This tunneling protocol doesn't 
+ encrypt the traffic but does allow for multicast. The source is the 
+ outside interface on R1, and the destination is the outside IP of
  router R3.<br />
 <br />
 <br />
 Create ikev2 proposal<br/>
 <img src="images/created ikev2 proposal.PNG" height="80%" width="80%"/>
   <br />
-The proposal sets the perameters for the isakemp tunnel. This tunnel 
- uses asyncronus encryption for a strong connection so we can transport
- the syncronus keys safely.<br />
+The proposal sets the parameters for the Isakemp tunnel. This tunnel 
+ uses asynchronous encryption for a strong connection, so we can transport
+ The synchronous keys safely.br />
 <br />
 <br />
 Create keyring<br/>
 <img src="images/created ikev2 keyring.PNG"  height="80%" width="80%"/>
   <br />
-the keyring acts like a repository for our authentication methods here we
-are using preshared keys.<br />
+The keyring acts like a repository for our authentication methods. Here we
+We are using preshared keys.<br />
 <br />
 <br />
 Create ikev2 policy<br/>
 <img src="images/created ikev2 policy.PNG" height="80%" width="80%" />
   <br />
-Next we must match the proposal to an ikev2 policy.<br />
+Next, we must match the proposal to an IKEv2 policy.<br />
 <br />
 <br />
 Create ikev2 profile <br/>
 <img src="images/created ikev2 profile.PNG" height="80%" width="80%" />
   <br />
-The ikev2 profile is a list that the tunnel can use for configurations
-such as matching addresses for the endpoints authentications methods 
-and this is where you add the keyring to the configuration.<br />
+The IKEv2 profile is a list that the tunnel can use for configurations
+such as matching addresses for the endpoints' authentication methods 
+And this is where you add the keyring to the configuration.<br />
 <br />
 <br />
 Create transform set<br/>
 <img src="images/created transform set.PNG" height="80%" width="80%" />
   <br />
-Next we will create an ip sec transform set. This contains the security
-algarithms that will be used to form the ipsec tunnel.<br />
+ Next, we will create an IPsec transform set. This contains the security
+algorithms that will be used to form the IPSec tunnel.<br />
 <br />
 <br />
  Create ipsec profile<br/>
  <img src="images/created ipsec profile.PNG" height="80%" width="80%" />
   <br />
- The creation of an ipsec profile is next. This acts like a repository to store
- configurations for the ipsec tunnel and allso where we put the transform set.<br />
+ The next step is to create an IPSec profile. This acts as a repository to store
+ configurations for the IPsec tunnel and also where we add the transform set.<br />
 <br />
 <br />
  Map ipsec profile to gre tunnel<br/>
  <img src="images/liked ipsec profile to tunnel1.PNG" height="80%" width="80%" />
   <br />
- Finaly we link the ipsec profile to the gre tunnel so you get the security
- of ipsec but the multicast from the gre tunnel.<br />
+ Finally, we link the IPsec profile to the GRE tunnel, so you get the security
+ of IPsec, but the multicast from the GRE tunnel.<br />
 <br />
 <br />
   Ping pc on other network <br/>
@@ -90,7 +90,7 @@ algarithms that will be used to form the ipsec tunnel.<br />
   packet capture <br/>
   <img src="images/pings are encasulated in gre tunnel.PNG" height="80%" width="80%" />
   <br />
-  Here we can see from a packet capture the gre tunnel is being used.<br />
+  Here, we can see from a packet capture that the GRE tunnel is being used.<br />
 <br />
 <br />
   <p/>
